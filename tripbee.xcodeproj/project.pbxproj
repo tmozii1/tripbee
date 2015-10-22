@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAFF1F61BD8A61700E0F3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF1F51BD8A61700E0F3FE /* AppDelegate.swift */; };
+		4FAFF1F81BD8A61700E0F3FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF1F71BD8A61700E0F3FE /* ViewController.swift */; };
+		4FAFF1FB1BD8A61700E0F3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFF1F91BD8A61700E0F3FE /* Main.storyboard */; };
+		4FAFF1FE1BD8A61700E0F3FE /* tripbee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF1FC1BD8A61700E0F3FE /* tripbee.xcdatamodeld */; };
+		4FAFF2001BD8A61700E0F3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFF1FF1BD8A61700E0F3FE /* Assets.xcassets */; };
+		4FAFF2031BD8A61700E0F3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFF2011BD8A61700E0F3FE /* LaunchScreen.storyboard */; };
+		4FAFF20E1BD8A61700E0F3FE /* tripbeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF20D1BD8A61700E0F3FE /* tripbeeTests.swift */; };
+		4FAFF2191BD8A61700E0F3FE /* tripbeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF2181BD8A61700E0F3FE /* tripbeeUITests.swift */; };
+		E7C7572073317E23E7D5B150 /* Pods_tripbee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4524725E6C647A4E37A1AFF4 /* Pods_tripbee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FAFF20A1BD8A61700E0F3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAFF1EA1BD8A61700E0F3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAFF1F11BD8A61700E0F3FE;
+			remoteInfo = tripbee;
+		};
+		4FAFF2151BD8A61700E0F3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAFF1EA1BD8A61700E0F3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAFF1F11BD8A61700E0F3FE;
+			remoteInfo = tripbee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4524725E6C647A4E37A1AFF4 /* Pods_tripbee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tripbee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C4A6AC69BDAACA1DDC053 /* Pods-tripbee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripbee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tripbee/Pods-tripbee.debug.xcconfig"; sourceTree = "<group>"; };
+		4FAFF1F21BD8A61700E0F3FE /* tripbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFF1F51BD8A61700E0F3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FAFF1F71BD8A61700E0F3FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAFF1FA1BD8A61700E0F3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAFF1FD1BD8A61700E0F3FE /* tripbee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tripbee.xcdatamodel; sourceTree = "<group>"; };
+		4FAFF1FF1BD8A61700E0F3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FAFF2021BD8A61700E0F3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FAFF2041BD8A61700E0F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFF2091BD8A61700E0F3FE /* tripbeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripbeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFF20D1BD8A61700E0F3FE /* tripbeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripbeeTests.swift; sourceTree = "<group>"; };
+		4FAFF20F1BD8A61700E0F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFF2141BD8A61700E0F3FE /* tripbeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripbeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFF2181BD8A61700E0F3FE /* tripbeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripbeeUITests.swift; sourceTree = "<group>"; };
+		4FAFF21A1BD8A61700E0F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BCBC3697BA8F6728D8B7AB /* Pods-tripbee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripbee.release.xcconfig"; path = "Pods/Target Support Files/Pods-tripbee/Pods-tripbee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAFF1EF1BD8A61700E0F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C7572073317E23E7D5B150 /* Pods_tripbee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2061BD8A61700E0F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2111BD8A61700E0F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAFF1E91BD8A61700E0F3FE = {
+			isa = PBXGroup;
+			children = (
+				4FAFF1F41BD8A61700E0F3FE /* tripbee */,
+				4FAFF20C1BD8A61700E0F3FE /* tripbeeTests */,
+				4FAFF2171BD8A61700E0F3FE /* tripbeeUITests */,
+				4FAFF1F31BD8A61700E0F3FE /* Products */,
+				751130ADA56310F532DBCFD8 /* Pods */,
+				A5DB2020A9BDDB4724684A3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAFF1F31BD8A61700E0F3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFF1F21BD8A61700E0F3FE /* tripbee.app */,
+				4FAFF2091BD8A61700E0F3FE /* tripbeeTests.xctest */,
+				4FAFF2141BD8A61700E0F3FE /* tripbeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAFF1F41BD8A61700E0F3FE /* tripbee */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFF1F51BD8A61700E0F3FE /* AppDelegate.swift */,
+				4FAFF1F71BD8A61700E0F3FE /* ViewController.swift */,
+				4FAFF1F91BD8A61700E0F3FE /* Main.storyboard */,
+				4FAFF1FF1BD8A61700E0F3FE /* Assets.xcassets */,
+				4FAFF2011BD8A61700E0F3FE /* LaunchScreen.storyboard */,
+				4FAFF2041BD8A61700E0F3FE /* Info.plist */,
+				4FAFF1FC1BD8A61700E0F3FE /* tripbee.xcdatamodeld */,
+			);
+			path = tripbee;
+			sourceTree = "<group>";
+		};
+		4FAFF20C1BD8A61700E0F3FE /* tripbeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFF20D1BD8A61700E0F3FE /* tripbeeTests.swift */,
+				4FAFF20F1BD8A61700E0F3FE /* Info.plist */,
+			);
+			path = tripbeeTests;
+			sourceTree = "<group>";
+		};
+		4FAFF2171BD8A61700E0F3FE /* tripbeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFF2181BD8A61700E0F3FE /* tripbeeUITests.swift */,
+				4FAFF21A1BD8A61700E0F3FE /* Info.plist */,
+			);
+			path = tripbeeUITests;
+			sourceTree = "<group>";
+		};
+		751130ADA56310F532DBCFD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C4A6AC69BDAACA1DDC053 /* Pods-tripbee.debug.xcconfig */,
+				C6BCBC3697BA8F6728D8B7AB /* Pods-tripbee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5DB2020A9BDDB4724684A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4524725E6C647A4E37A1AFF4 /* Pods_tripbee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAFF1F11BD8A61700E0F3FE /* tripbee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFF21D1BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbee" */;
+			buildPhases = (
+				AE9C346B25F2F254D675A319 /* Check Pods Manifest.lock */,
+				4FAFF1EE1BD8A61700E0F3FE /* Sources */,
+				4FAFF1EF1BD8A61700E0F3FE /* Frameworks */,
+				4FAFF1F01BD8A61700E0F3FE /* Resources */,
+				314BE7FCBF90D5E26E9DA34C /* Embed Pods Frameworks */,
+				BFC7F274A604231589807912 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tripbee;
+			productName = tripbee;
+			productReference = 4FAFF1F21BD8A61700E0F3FE /* tripbee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FAFF2081BD8A61700E0F3FE /* tripbeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFF2201BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbeeTests" */;
+			buildPhases = (
+				4FAFF2051BD8A61700E0F3FE /* Sources */,
+				4FAFF2061BD8A61700E0F3FE /* Frameworks */,
+				4FAFF2071BD8A61700E0F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAFF20B1BD8A61700E0F3FE /* PBXTargetDependency */,
+			);
+			name = tripbeeTests;
+			productName = tripbeeTests;
+			productReference = 4FAFF2091BD8A61700E0F3FE /* tripbeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FAFF2131BD8A61700E0F3FE /* tripbeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFF2231BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbeeUITests" */;
+			buildPhases = (
+				4FAFF2101BD8A61700E0F3FE /* Sources */,
+				4FAFF2111BD8A61700E0F3FE /* Frameworks */,
+				4FAFF2121BD8A61700E0F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAFF2161BD8A61700E0F3FE /* PBXTargetDependency */,
+			);
+			name = tripbeeUITests;
+			productName = tripbeeUITests;
+			productReference = 4FAFF2141BD8A61700E0F3FE /* tripbeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAFF1EA1BD8A61700E0F3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = timworld;
+				TargetAttributes = {
+					4FAFF1F11BD8A61700E0F3FE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4FAFF2081BD8A61700E0F3FE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4FAFF1F11BD8A61700E0F3FE;
+					};
+					4FAFF2131BD8A61700E0F3FE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4FAFF1F11BD8A61700E0F3FE;
+					};
+				};
+			};
+			buildConfigurationList = 4FAFF1ED1BD8A61700E0F3FE /* Build configuration list for PBXProject "tripbee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAFF1E91BD8A61700E0F3FE;
+			productRefGroup = 4FAFF1F31BD8A61700E0F3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAFF1F11BD8A61700E0F3FE /* tripbee */,
+				4FAFF2081BD8A61700E0F3FE /* tripbeeTests */,
+				4FAFF2131BD8A61700E0F3FE /* tripbeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAFF1F01BD8A61700E0F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFF2031BD8A61700E0F3FE /* LaunchScreen.storyboard in Resources */,
+				4FAFF2001BD8A61700E0F3FE /* Assets.xcassets in Resources */,
+				4FAFF1FB1BD8A61700E0F3FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2071BD8A61700E0F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2121BD8A61700E0F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		314BE7FCBF90D5E26E9DA34C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tripbee/Pods-tripbee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9C346B25F2F254D675A319 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC7F274A604231589807912 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tripbee/Pods-tripbee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAFF1EE1BD8A61700E0F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFF1F81BD8A61700E0F3FE /* ViewController.swift in Sources */,
+				4FAFF1FE1BD8A61700E0F3FE /* tripbee.xcdatamodeld in Sources */,
+				4FAFF1F61BD8A61700E0F3FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2051BD8A61700E0F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFF20E1BD8A61700E0F3FE /* tripbeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFF2101BD8A61700E0F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFF2191BD8A61700E0F3FE /* tripbeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAFF20B1BD8A61700E0F3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAFF1F11BD8A61700E0F3FE /* tripbee */;
+			targetProxy = 4FAFF20A1BD8A61700E0F3FE /* PBXContainerItemProxy */;
+		};
+		4FAFF2161BD8A61700E0F3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAFF1F11BD8A61700E0F3FE /* tripbee */;
+			targetProxy = 4FAFF2151BD8A61700E0F3FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FAFF1F91BD8A61700E0F3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAFF1FA1BD8A61700E0F3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAFF2011BD8A61700E0F3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAFF2021BD8A61700E0F3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAFF21B1BD8A61700E0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FAFF21C1BD8A61700E0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAFF21E1BD8A61700E0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3C4A6AC69BDAACA1DDC053 /* Pods-tripbee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tripbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FAFF21F1BD8A61700E0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BCBC3697BA8F6728D8B7AB /* Pods-tripbee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tripbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FAFF2211BD8A61700E0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tripbeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripbee.app/tripbee";
+			};
+			name = Debug;
+		};
+		4FAFF2221BD8A61700E0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tripbeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripbee.app/tripbee";
+			};
+			name = Release;
+		};
+		4FAFF2241BD8A61700E0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tripbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tripbee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FAFF2251BD8A61700E0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tripbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.timworld.tripbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tripbee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAFF1ED1BD8A61700E0F3FE /* Build configuration list for PBXProject "tripbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFF21B1BD8A61700E0F3FE /* Debug */,
+				4FAFF21C1BD8A61700E0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFF21D1BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFF21E1BD8A61700E0F3FE /* Debug */,
+				4FAFF21F1BD8A61700E0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFF2201BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFF2211BD8A61700E0F3FE /* Debug */,
+				4FAFF2221BD8A61700E0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFF2231BD8A61700E0F3FE /* Build configuration list for PBXNativeTarget "tripbeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFF2241BD8A61700E0F3FE /* Debug */,
+				4FAFF2251BD8A61700E0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FAFF1FC1BD8A61700E0F3FE /* tripbee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FAFF1FD1BD8A61700E0F3FE /* tripbee.xcdatamodel */,
+			);
+			currentVersion = 4FAFF1FD1BD8A61700E0F3FE /* tripbee.xcdatamodel */;
+			path = tripbee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FAFF1EA1BD8A61700E0F3FE /* Project object */;
+}
